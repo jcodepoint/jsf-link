@@ -19,6 +19,10 @@
 		<url-pattern>*.jsf</url-pattern>
 	</servlet-mapping>
 
+	<session-config>
+		<tracking-mode>COOKIE</tracking-mode>
+	</session-config>
+
 	<welcome-file-list>
 		<welcome-file>pages/inicio.jsf</welcome-file>
 	</welcome-file-list>
